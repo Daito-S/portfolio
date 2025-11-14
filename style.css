@@ -1,0 +1,38 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: "Yusei Magic", sans-serif;
+  --theme-color-1: rgb(0, 255, 195);
+  --theme-color-2: rgb(0, 217, 255);
+  color: #454545;
+}
+
+body{
+    background-color: rgb(250, 255, 237);
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    font-size: 500%;
+    color: black;
+    background-color: rgb(0, 255, 195);
+}
+
+p{
+    color: black;
+    background-color: rgb(0, 217, 255);
+}
+
+a{
+    color: rgb(81, 0, 255);
+}
+
+h2{
+    font-size: 200%;
+    color: rgb(49, 185, 154);
+}
+
+h3{
+    color: lightgreen;
+}
