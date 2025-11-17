@@ -44,12 +44,12 @@ nav{
     margin-left: auto;
 }
 
-header ul,
+/* header ul,
 header li{
     margin: 0;
     padding: 0;
     list-style: none;
-}
+} */
 
 .name{
     position: relative;
@@ -84,7 +84,7 @@ header li{
 }
 
 main{
-    margin-top: 80px;
+    margin-top: 15px;
 }
 
 p{
@@ -94,9 +94,14 @@ p{
     padding: 10px;
 }
 
-/* a{
-    color: rgb(81, 0, 255);
-} */
+.works-ul{
+    padding-inline-start: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    margin: 0;
+}
 
 h2{
     font-size: 200%;
@@ -117,6 +122,13 @@ h2{
     /* margin-top: 100px; */
 }
 
+/* .skills-section ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    max-width: 400px;
+} */
+
 .work{
     background-color: rgb(164, 241, 255);
     border-radius: 15px;
@@ -131,3 +143,14 @@ h2{
     border-radius: 10px;
     margin-bottom: 10px;
 }
+
+.skills-ul{
+    background-color: rgb(164, 241, 255);
+    padding-inline-start: 0;
+    list-style-type: square;
+    max-width: 900px;
+    font-size: 2vw;
+    gap: 20px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;}
