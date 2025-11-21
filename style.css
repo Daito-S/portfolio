@@ -110,6 +110,16 @@ p{
     margin: 0;
 }
 
+.reversi-images {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 10px;
+    /* margin-top: 10px; */
+}
+
 h2{
     font-size: 225%;
     color: rgb(49, 185, 154);
@@ -154,14 +164,19 @@ h2{
     z-index: 10;
 }
 
-.work-image{
+.reversi-image{
     border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
-    /* margin-bottom: 10px; */
-    width: clamp(150px, 50%, 400px);
+    width: clamp(140px, 50%, 400px);
     display: block;
-    /* margin-left: 0;
-    margin-right: 0; */
+    margin: 55px 0 2px 0;
+}
+
+.MiniatureTank-image{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width: clamp(150px, 90%, 650px);
+    display: block;
     margin: 55px 0 2px 0;
 }
 
