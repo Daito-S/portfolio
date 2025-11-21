@@ -68,6 +68,11 @@ nav{
     padding-left: 0pt;
 }
 
+header nav a{
+    color: #000;
+    text-decoration: none;
+}
+
 .gnav {
     display: inline-block;
     /* position: relative; */
