@@ -97,7 +97,7 @@ main{
     margin: 0;
 }
 
-.reversi-images {
+.work-images {
     width: 100%;
     overflow-x: auto;
     white-space: nowrap;
@@ -158,6 +158,14 @@ h2{
 }
 
 .MiniatureTank-image{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width: clamp(120px, 40vw, 350px);
+    display: block;
+    margin: clamp(15px, 3vw, 25px) 0 clamp(2px, 0.5vw, 5px) 0;
+}
+
+.YosokuJanken-image{
     border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
     width: clamp(120px, 40vw, 350px);
