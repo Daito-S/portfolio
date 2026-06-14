@@ -3,12 +3,12 @@ html {
   -webkit-text-size-adjust: 100%;
   font-family: "Yusei Magic", sans-serif;
   --theme-color-1: rgb(32, 182, 147);
-  --theme-color-2: rgb(0, 217, 255);
+  --theme-color-2: rgb(255, 255, 255);
   color: #454545;
 }
 
 body{
-    background-color: rgb(255, 250, 233);
+    background-color: rgb(200, 240, 238);
     margin: 0;
 }
 
@@ -84,7 +84,7 @@ main{
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    margin-top: clamp(15px, 3vw, 25px);
+    margin-top: clamp(15px, 3vw, 20px);
 }
 
 .works-ul{
@@ -108,17 +108,17 @@ main{
 }
 
 h2{
-    font-size: clamp(1.5rem, 6vw, 2.5rem);
+    font-size: clamp(1.5rem, 6vw, 5rem);
     color: rgb(49, 185, 154);
     margin-bottom: 0vw;
 }
 
 .profile-text{
-    background-color: rgb(164, 241, 255);
+    background-color: rgb(255, 255, 255);
     border-radius: 15px;
     padding: clamp(8px, 2vw, 15px);
-    max-width: min(85vw, 800px);
-    font-size: clamp(0.8rem, 2.5vw, 1.2rem);
+    max-width: max(80vw, 800px);
+    font-size: clamp(0.8rem, 2.5vw, 2rem);
 }
 
 .profile-section,
@@ -128,13 +128,14 @@ h2{
 }
 
 .work{
-    background-color: rgb(164, 241, 255);
+    background-color: rgb(255, 255, 255);
     border-radius: 15px;
     padding: clamp(8px, 2vw, 15px);
     margin-bottom: clamp(8px, 1.5vw, 13px);
     /* width: min(75vw, 380px); */
     position: relative;
     height: auto;
+    font-size: clamp(0.3rem, 1.5vw, 2rem);
 }
 
 .work-link{
@@ -145,7 +146,7 @@ h2{
     border-radius: clamp(4px, 0.5vw, 8px);
     text-decoration: none;
     color: #000;
-    font-size: clamp(0.65rem, 1.8vw, 1.2rem);
+    font-size: clamp(0.65rem, 1.8vw, 2rem);
     z-index: 10;
 }
 
@@ -174,12 +175,12 @@ h2{
 }
 
 .skills-ul{
-    background-color: rgb(164, 241, 255);
+    background-color: rgb(255, 255, 255);
     border-radius: 15px;
     padding-inline-start: 0;
     list-style-type: square;
-    max-width: min(85vw, 900px);
-    font-size: clamp(0.85rem, 2.8vw, 1.4rem);
+    width: max(75vw, 900px);
+    font-size: clamp(1vw, 2vw, 2.4vw);
     gap: clamp(20px, 3vw, 40px) clamp(30px, 5vw, 60px);
     margin-top: 0%;
     padding: clamp(25px, 4vw, 40px);
